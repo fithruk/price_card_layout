@@ -1,0 +1,145 @@
+@import './variables.scss';
+
+.price-card {
+  overflow: hidden;
+  position: relative;
+  width: 380px;
+  height: fit-content;
+  text-align: center;
+  color: #ffffff;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+
+  &__title {
+    margin-top: 33px;
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 700;
+  }
+
+  &__sub-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+
+  &__price {
+    margin-top: 33px;
+    background-color: $green;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    padding: 19px 0;
+    display: block;
+  }
+
+  &__description {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 40px 26px;
+    margin: 0;
+  }
+
+  &__options-list {
+    text-align: start;
+  }
+
+  &__options-list-item {
+    position: relative;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 16px 0 16px 59px;
+
+    &:nth-child(odd) {
+      background-color: rgb(42, 52, 56, 0.5);
+    }
+
+    &:nth-child(even) {
+      background-color: #334247;
+    }
+  }
+
+  &:nth-child(2) {
+    margin-left: 18px;
+  }
+  &:nth-child(3) {
+    margin-left: 18px;
+  }
+}
+
+.price-card-price {
+  margin-top: 33px;
+  background-color: $green;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  padding: 19px 0;
+  display: block;
+
+  &--blue {
+    background-color: $blue;
+  }
+
+  &--orange {
+    background-color: $orange;
+  }
+}
+
+.swoosh {
+  display: block;
+  position: absolute;
+  left: 22px;
+  width: 15px;
+  height: 13px;
+  &-green {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  }
+  &-blue {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  }
+  &-orange {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  }
+}
+
+.price-card__order-btn {
+  width: 154px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 39px auto 40px;
+  color: #ffffff;
+
+  &_green {
+    background-color: $green;
+  }
+
+  &_blue {
+    background-color: $blue;
+  }
+  &_orange {
+    background-color: $orange;
+  }
+}
+
+.popular {
+  position: absolute;
+  top: 30px;
+  right: -35px;
+  width: 147px;
+  height: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  color: #ffffff;
+  background-color: #dc3f45;
+  transform: rotate(45deg);
+}
