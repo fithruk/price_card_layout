@@ -44,7 +44,7 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
-  padding: 16px 0 16px 59px;
+  padding: 16px 0 16px 37px;
 }
 .price-card__options-list-item:nth-child(odd) {
   background-color: rgba(42, 52, 56, 0.5);
@@ -68,17 +68,16 @@
   padding: 19px 0;
   display: block;
 }
-.price-card-price--blue {
+.price-card-price_blue {
   background-color: #3a6ba5;
 }
-.price-card-price--orange {
+.price-card-price_orange {
   background-color: #ec632a;
 }
 
 .swoosh {
-  display: block;
-  position: absolute;
-  left: 22px;
+  display: inline-block;
+  margin-right: 20px;
   width: 15px;
   height: 13px;
 }
@@ -132,8 +131,7 @@
 
 h1,
 h2,
-ul,
-ol {
+ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
