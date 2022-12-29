@@ -1,4 +1,4 @@
-# https://fithruk.github.io/price_cards_layout/
+# https://fithruk.github.io/price_card_layout/
 Для устройств с экраном от 1100 px.
 
 При создании страницы использованы технологии:
